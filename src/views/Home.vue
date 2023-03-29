@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto px-10 pb-[20px] md:px-0">
     <div class="w-full flex justify-between md:block">
-      <h1>Hello World</h1>
+      <h1 class="text-6xl">Hello World</h1>
     </div>
   </div>
 </template>

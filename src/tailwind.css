@@ -4,3 +4,11 @@
 @tailwind components;
 
 @tailwind utilities;
+
+/* Custom Tailwind Style */
+@layer base {
+  body {
+    min-height: 100vh;
+    background: #fff;
+  }
+}

@@ -4,6 +4,7 @@ const colors = require('tailwindcss/colors');
 
 export default {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+  darkMode: 'class',
   theme: {
     screens: {
       // Note: @media (min-width: 1279px) || Large Laptops and above+
@@ -27,21 +28,33 @@ export default {
       },
       colors: {
         primary: {
-          100: '#dff7fe',
-          200: '#bff0fd',
-          300: '#a0e8fc',
-          400: '#80e1fb',
-          500: '#61dafb',
-          600: '#57c4e1',
-          700: '#4daec8',
-          800: '#4398af',
-          900: '#3a8296',
+          100: '#d1efdb',
+          200: '#a2deb6',
+          300: '#74ce92',
+          400: '#45bd6d',
+          500: '#17ad49',
+          600: '#128a3a',
+          700: '#0e682c',
+          800: '#09451d',
+          900: '#05230f',
         },
         success: colors.green,
         danger: colors.rose,
         warning: colors.yellow,
       },
     },
+    daisyui: {
+      styled: true,
+      themes: ['light'],
+      base: true,
+      utils: true,
+      logs: true,
+      rtl: false,
+    },
   },
-  plugins: [require('@tailwindcss/typography'), require('autoprefixer')],
+  plugins: [
+    require('daisyui'),
+    require('@tailwindcss/typography'),
+    require('autoprefixer'),
+  ],
 };
