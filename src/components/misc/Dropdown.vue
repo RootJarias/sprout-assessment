@@ -15,7 +15,7 @@
       class="menu dropdown-content p-2 shadow bg-[#333] rounded-box w-52 mt-4"
     >
       <li v-for="(item, i) in dropdownLinks[name]" :key="i">
-        <a :href="item.link">{{ item.title }}</a>
+        <a class="text-[#dddddd]" :href="item.link">{{ item.title }}</a>
       </li>
     </ul>
   </div>

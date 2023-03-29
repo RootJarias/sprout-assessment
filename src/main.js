@@ -12,10 +12,16 @@ import './tailwind.css';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import './assets/icons/fontawesome-icons';
 
+// Easy Data Table v1.5.42
+import Vue3EasyDataTable from 'vue3-easy-data-table';
+import 'vue3-easy-data-table/dist/style.css';
+
 const VueApp = createApp(App);
 
 VueApp.use(router);
 
+// Register Global Components
 VueApp.component('font-awesome-icon', FontAwesomeIcon);
+VueApp.component('EasyDataTable', Vue3EasyDataTable);
 
 VueApp.mount('#app');

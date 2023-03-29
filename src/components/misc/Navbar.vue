@@ -90,13 +90,10 @@
       />
     </label>
   </nav>
-
-  <CMP_Drawer />
 </template>
 
 <script setup>
 // Import Components
-import CMP_Drawer from './Drawer.vue';
 import CMP_Dropdown from './Dropdown.vue';
 </script>
 

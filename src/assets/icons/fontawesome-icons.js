@@ -6,6 +6,7 @@ import {
   faCaretDown,
   faMagnifyingGlass,
   faBars,
+  faPlus,
 } from '@fortawesome/free-solid-svg-icons';
 
 import { faBell } from '@fortawesome/free-regular-svg-icons';
@@ -15,3 +16,4 @@ library.add(faCaretDown);
 library.add(faMagnifyingGlass);
 library.add(faBars);
 library.add(faBell);
+library.add(faPlus);
