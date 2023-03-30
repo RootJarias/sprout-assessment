@@ -1,5 +1,5 @@
 <template>
-  <div class="px-[45px] mt-[105px] pb-[50px]">
+  <div class="px-[50px] mt-[110px] pb-[50px]">
     <div class="mb-8 flex justify-between md:block">
       <div>
         <h1 class="text-2xl font-bold">Announcements</h1>
@@ -60,7 +60,10 @@
         </div>
       </div>
     </div>
-    <CMP_Table headers="" :items="announcementData" />
+    <CMP_Table
+      :headers="announcementData.headers"
+      :items="announcementData.items"
+    />
   </div>
 </template>
 
@@ -75,5 +78,40 @@ import announcementRawData from '../assets/raw-data/announcement.json';
 import CMP_Table from '../components/misc/Table.vue';
 
 // Set Datas
-const announcementData = ref(announcementRawData);
+const announcementData = ref({
+  headers: [
+    {
+      title: 'TITLE',
+      icon: null,
+    },
+    {
+      title: 'MESSAGE',
+      icon: null,
+    },
+    {
+      title: 'SENT BY',
+      icon: null,
+    },
+    {
+      title: 'SENT THROUGH',
+      icon: {
+        type: 'fas',
+        ico_name: 'circle-info',
+      },
+    },
+    {
+      title: 'DATE CREATED',
+      icon: null,
+    },
+    {
+      title: 'START DATE',
+      icon: null,
+    },
+    {
+      title: 'END DATE',
+      icon: null,
+    },
+  ],
+  items: announcementRawData,
+});
 </script>

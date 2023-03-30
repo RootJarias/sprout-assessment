@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="h-[76px] top-0 fixed w-full bg-[#333] flex justify-between drop-shadow-md z-50 pt-[14px] pb-[20px] pl-[30px] pr-[30px]"
+    class="h-[76px] top-0 fixed w-full bg-[#333] flex justify-between drop-shadow-md z-50 pt-[14px] pb-[20px] px-[30px] pr-[10px]"
   >
     <router-link class="flex" :to="{ name: 'BaseRoute::home' }">
       <img
@@ -17,7 +17,7 @@
       <CMP_Dropdown
         name="my-requests"
         dropdown-align="dropdown-end"
-        btn-class="btn btn-link rounded-btn capitalize text-lg text-[#dddddd] no-underline font-light"
+        btn-class="btn btn-link px-[8px] rounded-btn capitalize text-lg text-[#dddddd] no-underline font-light"
         title="My Requests"
         icon-type="fas"
         icon="caret-down"
@@ -25,7 +25,7 @@
       <CMP_Dropdown
         name="my-team"
         dropdown-align="dropdown-end"
-        btn-class="btn btn-link rounded-btn capitalize text-lg text-[#dddddd] no-underline font-light"
+        btn-class="btn btn-link px-[8px] rounded-btn capitalize text-lg text-[#dddddd] no-underline font-light"
         title="My Team"
         icon-type="fas"
         icon="caret-down"
@@ -33,7 +33,7 @@
       <CMP_Dropdown
         name="company"
         dropdown-align="dropdown-end"
-        btn-class="btn btn-link rounded-btn capitalize text-lg text-[#dddddd] no-underline font-light"
+        btn-class="btn btn-link px-[8px] rounded-btn capitalize text-lg text-[#dddddd] no-underline font-light"
         title="Company"
         icon-type="fas"
         icon="caret-down"
@@ -41,7 +41,7 @@
       <CMP_Dropdown
         name="administration-tools"
         dropdown-align="dropdown-end"
-        btn-class="btn btn-link rounded-btn capitalize text-lg text-[#dddddd] no-underline font-light"
+        btn-class="btn btn-link px-[8px] rounded-btn capitalize text-lg text-[#dddddd] no-underline font-light"
         title="Administration Tools"
         icon-type="fas"
         icon="caret-down"
@@ -49,23 +49,23 @@
       <CMP_Dropdown
         name="maintenance"
         dropdown-align="dropdown-end"
-        btn-class="btn btn-link rounded-btn capitalize text-lg text-[#dddddd] no-underline font-light"
+        btn-class="btn btn-link px-[8px] rounded-btn capitalize text-lg text-[#dddddd] no-underline font-light"
         title="Maintenance"
         icon-type="fas"
         icon="caret-down"
       />
       <input
-        class="input mt-[4px] mr-3 h-[38px] bg-transparent rounded-none border-0 border-b-2 border-[#666c71] focus:outline-none focus:border-primary-500"
+        class="input mt-[4px] mr-1 h-[38px] w-[155px] bg-transparent rounded-none border-0 border-b-2 border-[#666c71] focus:outline-none focus:border-primary-500"
         type="text"
         placeholder="employee search"
       />
       <button
-        class="btn btn-ghost text-center mt-1 ml-2 text-[26px] text-[#666c71] focus:text-primary-500"
+        class="btn btn-ghost p-1 text-center mt-1 ml-2 text-[24px] text-[#666c71] focus:text-primary-500"
       >
         <font-awesome-icon :icon="['fas', 'magnifying-glass']" />
       </button>
       <button
-        class="btn btn-ghost text-center mt-1 ml-2 text-[26px] text-[#666c71] focus:text-primary-500"
+        class="btn btn-ghost p-1 text-center mt-1 ml-2 text-[24px] text-[#666c71] focus:text-primary-500"
       >
         <font-awesome-icon :icon="['far', 'bell']" />
       </button>
@@ -98,13 +98,13 @@ import CMP_Dropdown from './Dropdown.vue';
 </script>
 
 <style>
-@media only screen and (max-width: 1499px) {
+/* @media only screen and (max-width: 1499px) {
   #desktop-menu .btn {
-    font-size: 14px;
+    font-size: 16px;
   }
-}
+} */
 
-@media only screen and (max-width: 1399px) {
+/* @media only screen and (max-width: 1399px) {
   #desktop-menu {
     display: none;
   }
@@ -112,5 +112,5 @@ import CMP_Dropdown from './Dropdown.vue';
   #mobile-menu-btn {
     display: block;
   }
-}
+} */
 </style>

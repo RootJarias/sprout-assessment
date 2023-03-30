@@ -3,13 +3,18 @@
     <table class="w-full">
       <thead>
         <tr class="border-b border-gray-400 font-medium">
-          <th class="p-4 text-left text-[14px]">TITLE</th>
-          <th class="p-4 text-left text-[14px]">MESSAGE</th>
-          <th class="p-4 text-left text-[14px]">SENT BY</th>
-          <th class="p-4 text-left text-[14px]">SENT THROUGH</th>
-          <th class="p-4 text-left text-[14px]">DATE CREATED</th>
-          <th class="p-4 text-left text-[14px]">START DATE</th>
-          <th class="p-4 text-left text-[14px]">END DATE</th>
+          <th
+            class="p-4 text-left text-[12px]"
+            v-for="(header, i) in tableData.headers"
+            :key="i"
+          >
+            <span class="mr-2">{{ header.title }}</span>
+            <font-awesome-icon
+              class="text-blue-600 text-[14px]"
+              :icon="[header.icon.type, header.icon.ico_name]"
+              v-if="header.icon"
+            />
+          </th>
         </tr>
       </thead>
       <tbody>
@@ -29,12 +34,12 @@
           <td class="px-4 py-2">{{ item.sent_by }}</td>
           <td class="px-4 py-2">
             <font-awesome-icon
-              class="mr-4 text-[16px]"
+              class="mr-4 text-[12px]"
               :icon="['fas', 'bookmark']"
               v-if="item.sent_through.web"
             />
             <font-awesome-icon
-              class="text-[16px]"
+              class="text-[12px]"
               :icon="['fas', 'mobile-alt']"
               v-if="item.sent_through.mobile"
             />
@@ -69,32 +74,32 @@
               <div class="flex">
                 <button class="btn btn-ghost btn-xs mr-1">
                   <font-awesome-icon
-                    class="text-[16px] text-gray-400"
+                    class="text-[12px] text-gray-400"
                     :icon="['fas', 'backward-step']"
                   />
                 </button>
                 <button class="btn btn-ghost btn-xs mr-1">
                   <font-awesome-icon
-                    class="text-[16px] text-gray-400"
+                    class="text-[12px] text-gray-400"
                     :icon="['fas', 'caret-left']"
                   />
                 </button>
                 <span class="mr-2 text-gray-500">Page</span>
                 <button
-                  class="btn bg-transparent min-h-0 border border-gray-400 rounded-[5px] h-[28px] w-[50px] hover:bg-transparent text-[16px] text-gray-400"
+                  class="btn bg-transparent min-h-0 border border-gray-400 rounded-[5px] h-[28px] w-[50px] hover:bg-transparent text-[12px] text-gray-400"
                 >
                   1
                 </button>
                 <span class="ml-2 text-gray-500">of 1</span>
                 <button class="btn btn-ghost btn-xs ml-1">
                   <font-awesome-icon
-                    class="text-[16px] text-gray-400"
+                    class="text-[12px] text-gray-400"
                     :icon="['fas', 'caret-right']"
                   />
                 </button>
                 <button class="btn btn-ghost btn-xs ml-1">
                   <font-awesome-icon
-                    class="text-[16px] text-gray-400"
+                    class="text-[12px] text-gray-400"
                     :icon="['fas', 'forward-step']"
                   />
                 </button>

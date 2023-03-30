@@ -13,6 +13,7 @@ import {
   faPlus,
   faBookmark,
   faMobileAlt,
+  faCircleInfo,
 } from '@fortawesome/free-solid-svg-icons';
 
 import { faBell } from '@fortawesome/free-regular-svg-icons';
@@ -28,5 +29,6 @@ library.add(faBars);
 library.add(faPlus);
 library.add(faBookmark);
 library.add(faMobileAlt);
+library.add(faCircleInfo);
 
 library.add(faBell);
