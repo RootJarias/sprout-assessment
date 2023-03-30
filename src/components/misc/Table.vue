@@ -1,10 +1,10 @@
 <template>
-  <div class="border border-gray-400 rounded-[5px]">
+  <div class="border border-gray-400 rounded-[5px] overflow-auto">
     <table class="w-full">
       <thead>
         <tr class="border-b border-gray-400 font-medium">
           <th
-            class="p-4 text-left text-[12px]"
+            class="p-4 text-left text-[12px] whitespace-nowrap"
             v-for="(header, i) in tableData.headers"
             :key="i"
           >

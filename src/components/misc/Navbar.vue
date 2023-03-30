@@ -98,13 +98,7 @@ import CMP_Dropdown from './Dropdown.vue';
 </script>
 
 <style>
-/* @media only screen and (max-width: 1499px) {
-  #desktop-menu .btn {
-    font-size: 16px;
-  }
-} */
-
-/* @media only screen and (max-width: 1399px) {
+@media only screen and (max-width: 1299px) {
   #desktop-menu {
     display: none;
   }
@@ -112,5 +106,5 @@ import CMP_Dropdown from './Dropdown.vue';
   #mobile-menu-btn {
     display: block;
   }
-} */
+}
 </style>
