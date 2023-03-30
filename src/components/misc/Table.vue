@@ -5,7 +5,7 @@
         <tr class="border-b border-gray-400 font-medium">
           <th
             class="p-4 text-left text-[12px] whitespace-nowrap"
-            v-for="(header, i) in tableData.headers"
+            v-for="(header, i) in JSON.parse(tableData.headers)"
             :key="i"
           >
             <span class="mr-2">{{ header.title }}</span>
@@ -20,8 +20,9 @@
       <tbody>
         <tr
           class="border-b border-gray-400 font-medium"
-          v-for="(item, i) in tableData.items"
+          v-for="(item, i) in JSON.parse(tableData.items)"
           :key="i"
+          v-if="JSON.parse(tableData.items).length > 0"
         >
           <td class="px-4 py-2">
             <span class="block truncate w-[152px]">
@@ -54,10 +55,18 @@
             <span class="block text-gray-400">{{ item.end_date.time }}</span>
           </td>
         </tr>
+        <tr>
+          <td
+            class="p-4 text-center font-medium"
+            :colspan="JSON.parse(tableData.headers).length"
+          >
+            No results found
+          </td>
+        </tr>
       </tbody>
       <tfoot>
         <tr class="font-medium">
-          <td class="p-4" colspan="7">
+          <td class="p-4" :colspan="JSON.parse(tableData.headers).length">
             <div class="flex justify-between">
               <div class="block">
                 <span class="mr-2 text-gray-500">Items per page</span>
@@ -105,7 +114,10 @@
                 </button>
               </div>
               <div class="block">
-                <span class="text-gray-500">Showing 1-10 of 1</span>
+                <span class="text-gray-500"
+                  >Showing 1-10 of
+                  {{ JSON.parse(tableData.items).length }}</span
+                >
               </div>
             </div>
           </td>

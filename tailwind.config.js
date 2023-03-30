@@ -48,7 +48,6 @@ export default {
     },
     daisyui: {
       styled: true,
-      themes: ['light'],
       base: true,
       utils: true,
       logs: true,
