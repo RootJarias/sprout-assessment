@@ -1,7 +1,18 @@
-# Vue 3 + Vite
+## Instructions
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+#### Go to the project folder then insall the needed dependencies.
 
-## Recommended IDE Setup
+```
+cd sprout-assessment
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+npm install
+```
+
+#### Library/Technology Used.
+
+```
+- Vue Router: To handle routings and layouts (https://v3.router.vuejs.org/installation.html#direct-download-cdn)
+- Tailwind CSS: I've used tailwind CSS for utility classes. (https://tailwindcss.com/)
+- Daisy UI: For tailwind code and UI enchancements. (https://daisyui.com/)
+- Fontawesome: Used to apply icon in the page (https://fontawesome.com/docs/web/use-with/vue/)
+```
