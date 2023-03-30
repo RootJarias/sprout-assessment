@@ -18,6 +18,13 @@ const routes = [
       },
     ],
   },
+
+  // Error page catch routes
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'ErrorRoute::404',
+    component: () => import('../views/errors/404.vue'),
+  },
 ];
 
 export default routes;
