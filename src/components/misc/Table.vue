@@ -114,10 +114,10 @@
                 </button>
               </div>
               <div class="block">
-                <span class="text-gray-500"
-                  >Showing 1-10 of
-                  {{ JSON.parse(tableData.items).length }}</span
-                >
+                <span class="text-gray-500">
+                  Showing 1-10 of
+                  {{ JSON.parse(tableData.items).length }}
+                </span>
               </div>
             </div>
           </td>

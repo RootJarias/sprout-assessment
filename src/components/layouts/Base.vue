@@ -6,7 +6,9 @@
     <div class="drawer z-40">
       <input id="side-drawer" class="drawer-toggle" type="checkbox" />
       <div class="drawer-content mt-[76px]">
-        <div class="container px-[50px] pt-[50px] pb-[120px]">
+        <div
+          class="container px-[50px] pt-[50px] pb-[120px] sm:px-[25px] sm:pt-[25px]"
+        >
           <router-view />
         </div>
       </div>

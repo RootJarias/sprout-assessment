@@ -6,14 +6,13 @@
         View, create, or edit announcements for all employees of your company.
       </p>
     </div>
-    <a href="#post-announcement-modal">
-      <button
-        class="btn min-h-0 h-[38px] mt-[22px] border-none rounded-[5px] text-lg text-white normal-case bg-primary-500 hover:bg-primary-700 sm:w-full"
-      >
-        <font-awesome-icon class="mr-2" :icon="['fas', 'plus']" />
-        <span>Post an Announcement</span>
-      </button>
-    </a>
+    <label
+      class="btn min-h-0 h-[38px] mt-[22px] border-none rounded-[5px] text-lg text-white normal-case bg-primary-500 hover:bg-primary-700 sm:w-full"
+      for="post-announcement-modal"
+    >
+      <font-awesome-icon class="mr-2" :icon="['fas', 'plus']" />
+      <span>Post an Announcement</span>
+    </label>
   </div>
 
   <div class="mb-5 flex justify-between md:block">
