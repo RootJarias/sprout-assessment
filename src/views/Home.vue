@@ -1,5 +1,5 @@
 <template>
-  <div class="px-[50px] mt-[110px] pb-[50px]">
+  <div class="container px-[50px] mt-[110px] pb-[50px]">
     <div class="mb-8 flex justify-between md:block">
       <div>
         <h1 class="text-2xl font-bold">Announcements</h1>
@@ -115,3 +115,11 @@ const announcementData = ref({
   items: announcementRawData,
 });
 </script>
+
+<style scoped>
+@media only screen and (max-width: 1440px) {
+  .container {
+    max-width: 100%;
+  }
+}
+</style>

@@ -1,24 +1,18 @@
 <template>
   <section class="bg-white py-[40px]">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="col-sm-10 col-sm-offset-1 text-center">
-            <div class="bg-404 h-[400px]">
-              <h1 class="text-center text-[80px]">404</h1>
-            </div>
-            <div class="mt-[-50px]">
-              <h3 class="text-[80px]">Look like you're lost</h3>
-              <p>the page you are looking for not avaible!</p>
-              <router-link
-                class="btn bg-primary-500 text-white border-0 mt-5"
-                :to="{ name: 'BaseRoute::home' }"
-              >
-                Go to Home
-              </router-link>
-            </div>
-          </div>
-        </div>
+    <div class="mt-[100px] container text-center">
+      <div class="bg-404 h-[400px]">
+        <h1 class="text-center text-[80px]">404</h1>
+      </div>
+      <div class="mt-[-50px]">
+        <h3 class="text-[80px]">Look like you're lost</h3>
+        <p>the page you are looking for not avaible!</p>
+        <router-link
+          class="btn bg-primary-500 text-white border-0 mt-5"
+          :to="{ name: 'BaseRoute::home' }"
+        >
+          Go to Home
+        </router-link>
       </div>
     </div>
   </section>
