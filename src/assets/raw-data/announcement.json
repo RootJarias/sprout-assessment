@@ -1,0 +1,182 @@
+[
+  {
+    "title": "[FOR YOUR ACTION IS DISMISSED]",
+    "message": "In line with the increase earth gravity",
+    "sent_by": "Roe, Ken",
+    "sent_through": {
+      "web": true,
+      "mobile": false
+    },
+    "date_created": "02/17/2022",
+    "start_date": {
+      "date": "02/18/2022",
+      "time": "9:30 AM"
+    },
+    "end_date": {
+      "date": "02/18/2022",
+      "time": "7:30 PM"
+    }
+  },
+  {
+    "title": "Annual Physical Education for womens",
+    "message": "In compliance with men in the future.",
+    "sent_by": "Roe, Ken",
+    "sent_through": {
+      "web": true,
+      "mobile": true
+    },
+    "date_created": "08/30/2022",
+    "start_date": {
+      "date": "09/01/2020",
+      "time": "9:00 AM"
+    },
+    "end_date": {
+      "date": "09/30/2020",
+      "time": "6:30 PM"
+    }
+  },
+  {
+    "title": "Mid-Autumn Festival coming this year 2023",
+    "message": "We wish everyone a happy new year",
+    "sent_by": "Don, Jane",
+    "sent_through": {
+      "web": true,
+      "mobile": true
+    },
+    "date_created": "08/22/2020",
+    "start_date": {
+      "date": "08/23/2020",
+      "time": "12:00 PM"
+    },
+    "end_date": {
+      "date": "09/30/2020",
+      "time": "9:00 AM"
+    }
+  },
+  {
+    "title": "50th General Assebly of the Hogwards",
+    "message": "Expelliarmus! Chevron de cope latte",
+    "sent_by": "Don, Jane",
+    "sent_through": {
+      "web": true,
+      "mobile": true
+    },
+    "date_created": "08/15/2020",
+    "start_date": {
+      "date": "08/23/2020",
+      "time": "9:00 AM"
+    },
+    "end_date": {
+      "date": "08/25/2020",
+      "time": "6:00 PM"
+    }
+  },
+  {
+    "title": "New Employees",
+    "message": "Let us welcome to our new employees for this year",
+    "sent_by": "King, Chow",
+    "sent_through": {
+      "web": true,
+      "mobile": false
+    },
+    "date_created": "08/10/2020",
+    "start_date": {
+      "date": "08/15/2020",
+      "time": "8:30 AM"
+    },
+    "end_date": {
+      "date": "08/18/2020",
+      "time": "6:00 PM"
+    }
+  },
+  {
+    "title": "Stock as of August month this year",
+    "message": "Our investor have just joined the millenia",
+    "sent_by": "King, Chow",
+    "sent_through": {
+      "web": true,
+      "mobile": false
+    },
+    "date_created": "07/30/2020",
+    "start_date": {
+      "date": "08/01/2020",
+      "time": "8:30 AM"
+    },
+    "end_date": {
+      "date": "08/04/2020",
+      "time": "6:00 PM"
+    }
+  },
+  {
+    "title": "Tip of the week",
+    "message": "To stay hydrated, dis one should drink water",
+    "sent_by": "Roe, Ken",
+    "sent_through": {
+      "web": true,
+      "mobile": false
+    },
+    "date_created": "02/26/2020",
+    "start_date": {
+      "date": "02/27/2020",
+      "time": "9:00 AM"
+    },
+    "end_date": {
+      "date": "03/15/2020",
+      "time": "6:00 PM"
+    }
+  },
+  {
+    "title": "Employee of the management team",
+    "message": "Congratiolations to all members!",
+    "sent_by": "King, Chow",
+    "sent_through": {
+      "web": false,
+      "mobile": true
+    },
+    "date_created": "01/12/2020",
+    "start_date": {
+      "date": "01/13/2020",
+      "time": "9:00 AM"
+    },
+    "end_date": {
+      "date": "01/14/2020",
+      "time": "6:00 PM"
+    }
+  },
+  {
+    "title": "Breakfast Menu",
+    "message": "We will be introducing the newest dessert for our menu",
+    "sent_by": "Gus, Amon",
+    "sent_through": {
+      "web": false,
+      "mobile": true
+    },
+    "date_created": "12/15/2019",
+    "start_date": {
+      "date": "12/20/2019",
+      "time": "9:00 AM"
+    },
+    "end_date": {
+      "date": "01/20/2019",
+      "time": "6:00 PM"
+    }
+  },
+  {
+    "title": "Cafe Relocation",
+    "message": "With the outgoing relocation, the cafe went viral",
+    "sent_by": "Lavjsta, Asta",
+    "sent_through": {
+      "web": true,
+      "mobile": true
+    },
+    "date_created": "12/14/2019",
+    "start_date": {
+      "date": "12/15/2019",
+      "time": "9:00 AM"
+    },
+    "end_date": {
+      "date": "01/19/2019",
+      "time": "6:00 PM"
+    }
+  }
+]

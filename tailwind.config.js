@@ -22,6 +22,9 @@ export default {
       // Note: @media (max-width: 425px) || Small Mobiles and below-
       xs: { max: '425px' },
     },
+    container: {
+      center: true,
+    },
     extend: {
       fontFamily: {
         sans: ['Nunito', ...defaultTheme.fontFamily.sans],

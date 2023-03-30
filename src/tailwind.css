@@ -5,11 +5,15 @@
 
 @tailwind utilities;
 
-/* Custom Tailwind Style */
-@layer base {
-  body {
-    min-height: 100vh;
-    background: #fff;
-    color: #000;
-  }
+/* Custom Global Style */
+body {
+  min-height: 100vh;
+  background: #fff;
+  color: #000;
+}
+
+.select {
+  background-position: calc(100% - 20px) calc(1px + 50%),
+    calc(100% - 14px) calc(1px + 50%);
+  background-size: 6px 6px, 6px 6px;
 }
