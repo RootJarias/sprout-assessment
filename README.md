@@ -19,3 +19,9 @@ npm install
 
 - Fontawesome: Used to apply icon in the page (https://fontawesome.com/docs/web/use-with/vue/)
 ```
+
+#### Notes.
+
+```
+- The data used in the data table is located in (src\assets\raw-data\announcement.json)
+```
