@@ -1,11 +1,13 @@
 ## Instructions
 
-#### Go to the project folder then insall the needed dependencies.
+#### Project Setup and Run.
 
 ```
 cd sprout-assessment
 
 npm install
+
+npm run dev
 ```
 
 #### Library/Technology Used.
