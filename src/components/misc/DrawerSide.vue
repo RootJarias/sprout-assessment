@@ -1,5 +1,5 @@
 <template>
-  <div class="drawer-side">
+  <aside class="drawer-side">
     <label class="drawer-overlay" for="side-drawer"></label>
     <ul class="menu pt-[90px] p-4 w-80 text-base-content bg-[#4b4d52]">
       <div class="mb-5 flex justify-between">
@@ -118,7 +118,7 @@
         </div>
       </li>
     </ul>
-  </div>
+  </aside>
 </template>
 
 <script setup>

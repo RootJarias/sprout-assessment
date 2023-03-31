@@ -2,19 +2,19 @@
   <header>
     <CMP_Navbar />
   </header>
-  <section>
+  <main>
     <div class="drawer z-40">
       <input id="side-drawer" class="drawer-toggle" type="checkbox" />
       <div class="drawer-content mt-[76px]">
-        <div
+        <section
           class="container px-[50px] pt-[50px] pb-[120px] sm:px-[25px] sm:pt-[25px]"
         >
           <router-view />
-        </div>
+        </section>
       </div>
       <CMP_DrawerSide />
     </div>
-  </section>
+  </main>
 </template>
 
 <script setup>
